@@ -1,0 +1,3 @@
+read,2024-01-01T00:00:00Z,mode=r,name=backupd;pid=4242;path=/usr/local/bin/backupd;privilege=root,path=/var/data/report.txt;fd=12;permissions=640
+write,2024-01-01T00:00:02Z,mode=rw,name=backupd;pid=4242;path=/usr/local/bin/backupd;privilege=root,path=/var/data/report.txt;fd=12;permissions=640
+execute,2024-01-01T00:00:05Z,exit=0,name=cron;pid=99;path=/usr/sbin/cron;privilege=user,path=/usr/local/bin/backup.sh;fd=12;permissions=755

@@ -1,0 +1,4 @@
+sendto,2024-01-01T10:00:00Z,protocol=TCP,name=httpd;pid=8080;path=/usr/bin/httpd;privilege=root,ip=192.168.1.100;port=80;protocol=TCP
+receivefrom,2024-01-01T10:00:01Z,protocol=TCP,name=httpd;pid=8080;path=/usr/bin/httpd;privilege=root,ip=192.168.1.100;port=80;protocol=TCP
+sendto,2024-01-01T10:00:02Z,protocol=UDP,name=dns;pid=53;path=/usr/bin/dns;privilege=root,ip=8.8.8.8;port=53;protocol=UDP
+receivefrom,2024-01-01T10:00:03Z,protocol=UDP,name=dns;pid=53;path=/usr/bin/dns;privilege=root,ip=8.8.8.8;port=53;protocol=UDP

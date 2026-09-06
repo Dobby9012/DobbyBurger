@@ -1,0 +1,16 @@
+report_id,timestamp,ioc_type,ioc_value,severity,threat_actor,description
+RPT001,2024-01-15T10:30:00Z,DOMAIN,evil.com,HIGH,APT28,Command and control server for backdoor malware
+RPT001,2024-01-15T10:30:00Z,IP_ADDRESS,192.168.1.100,HIGH,APT28,Command and control server IP
+RPT001,2024-01-15T10:30:00Z,FILE_HASH,a1b2c3d4e5f6,HIGH,APT28,Malware binary hash
+RPT001,2024-01-15T10:30:00Z,PROCESS_NAME,malware.exe,HIGH,APT28,Malicious process
+RPT002,2024-01-16T14:22:00Z,DOMAIN,malware-cdn.net,MEDIUM,Unknown,Distribution site for ransomware payload
+RPT002,2024-01-16T14:22:00Z,FILE_HASH,deadbeef1234,MEDIUM,Unknown,Ransomware payload hash
+RPT003,2024-01-17T09:15:00Z,PROCESS_NAME,cryptominer.exe,LOW,CoinMiner,Cryptocurrency mining trojan
+RPT003,2024-01-17T09:15:00Z,IP_ADDRESS,10.0.0.50,LOW,CoinMiner,Mining pool server
+RPT004,2024-01-18T16:45:00Z,DOMAIN,phishing-site.org,HIGH,Lazarus,Credential harvesting campaign
+RPT004,2024-01-18T16:45:00Z,DOMAIN,fake-login.net,HIGH,Lazarus,Fake login page domain
+RPT004,2024-01-18T16:45:00Z,IP_ADDRESS,203.0.113.50,HIGH,Lazarus,Phishing server IP
+RPT005,2024-01-19T11:00:00Z,IP_ADDRESS,192.168.1.200,MEDIUM,APT28,Lateral movement activity
+RPT005,2024-01-19T11:00:00Z,PROCESS_NAME,psexec.exe,MEDIUM,APT28,Lateral movement tool
+RPT006,2024-01-20T08:30:00Z,DOMAIN,evil.com,HIGH,APT28,Continued C2 activity
+RPT006,2024-01-20T08:30:00Z,IP_ADDRESS,192.168.2.50,HIGH,APT28,Secondary C2 server

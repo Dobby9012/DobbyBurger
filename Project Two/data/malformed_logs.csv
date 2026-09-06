@@ -1,0 +1,6 @@
+read,2024-01-01T00:00:00Z,mode=r,name=test;pid=123;path=/bin/test;privilege=user,path=/tmp/valid.txt;fd=1;permissions=644
+invalid_type,2024-01-01T00:00:01Z,mode=r,name=test;pid=123;path=/bin/test;privilege=user,path=/tmp/file.txt;fd=2;permissions=644
+read,invalid-timestamp,mode=r,name=test;pid=123;path=/bin/test;privilege=user,path=/tmp/file.txt;fd=3;permissions=644
+write,2024-01-01T00:00:02Z,mode=w,name=test;pid=123;path=/bin/test;privilege=user,path=/tmp/another.txt;fd=4;permissions=755
+read,2024-01-01T00:00:03Z,mode=r
+execute,2024-01-01T00:00:04Z,exit=0,name=cron;pid=99;path=/usr/sbin/cron;privilege=root,path=/usr/bin/script.sh;permissions=755

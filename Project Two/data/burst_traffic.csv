@@ -1,0 +1,11 @@
+read,2024-01-01T12:00:00Z,mode=r,name=logger;pid=1001;path=/usr/bin/logger;privilege=user,path=/var/log/app.log;fd=10;permissions=644
+read,2024-01-01T12:00:00Z,mode=r,name=logger;pid=1001;path=/usr/bin/logger;privilege=user,path=/var/log/app.log;fd=10;permissions=644
+write,2024-01-01T12:00:00Z,mode=w,name=logger;pid=1001;path=/usr/bin/logger;privilege=user,path=/var/log/app.log;fd=10;permissions=644
+read,2024-01-01T12:00:01Z,mode=r,name=monitor;pid=1002;path=/usr/bin/monitor;privilege=user,path=/proc/stat;fd=11;permissions=444
+read,2024-01-01T12:00:01Z,mode=r,name=monitor;pid=1002;path=/usr/bin/monitor;privilege=user,path=/proc/meminfo;fd=12;permissions=444
+open,2024-01-01T12:00:02Z,mode=r,name=backup;pid=1003;path=/usr/bin/backup;privilege=root,path=/home/user/docs;fd=13;permissions=755
+read,2024-01-01T12:00:02Z,mode=r,name=backup;pid=1003;path=/usr/bin/backup;privilege=root,path=/home/user/docs/file1.txt;fd=14;permissions=644
+read,2024-01-01T12:00:02Z,mode=r,name=backup;pid=1003;path=/usr/bin/backup;privilege=root,path=/home/user/docs/file2.txt;fd=15;permissions=644
+close,2024-01-01T12:00:03Z,mode=r,name=backup;pid=1003;path=/usr/bin/backup;privilege=root,path=/home/user/docs;fd=13;permissions=755
+fork,2024-01-01T12:00:03Z,status=success,name=backup;pid=1003;path=/usr/bin/backup;privilege=root,name=backup_worker;pid=1005;path=/usr/bin/backup;privilege=root
+execute,2024-01-01T12:00:04Z,exit=0,name=cron;pid=1004;path=/usr/sbin/cron;privilege=root,path=/usr/local/bin/cleanup.sh;fd=12;permissions=755
